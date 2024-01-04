@@ -1,16 +1,22 @@
-### Hi there 👋
+```python
+from dataclasses import dataclass
 
-<!--
-**edaucohe/edaucohe** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
-Here are some ideas to get you started:
+@dataclass
+class Profile:
+    name = "edaucohe"
+    role = "Python developer"
+    preferred_technology = "Python"
+    working_on = ["gui", "voice_recognition", "api"]
+    interests = ["web development", "TDD", "ci/cd"]
+    language_spoken = ["es_MX", "fr_FR", "en_US"]
+    hobbies = ["piano", "boardgames", "read", "football"]
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+    def say_hi(self):
+        print(f"Hi! I'm {self.name} and welcome to my GitHub profile! "
+              f"I hope you find my work useful and interesting.")
+
+
+edaucohe = Profile()
+edaucohe.say_hi()
+```
