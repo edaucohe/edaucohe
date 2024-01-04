@@ -7,7 +7,6 @@ class Profile:
     name = "edaucohe"
     role = "Python developer"
     preferred_technology = "Python"
-    working_on = ["gui", "voice_recognition", "api"]
     interests = ["web development", "TDD", "ci/cd"]
     language_spoken = ["es_MX", "fr_FR", "en_US"]
     hobbies = ["piano", "boardgames", "read", "football"]
