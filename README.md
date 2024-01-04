@@ -8,7 +8,7 @@ class Profile:
     role = "Python developer"
     preferred_technology = "Python"
     interests = ["web development", "TDD", "ci/cd"]
-    language_spoken = ["es_MX", "fr_FR", "en_US"]
+    languages_spoken = ["es_MX", "fr_FR", "en_US"]
     hobbies = ["piano", "boardgames", "read", "football"]
 
     def say_hi(self):
